@@ -1,5 +1,6 @@
 {
     "python.pythonPath": "/Users/anthony/.local/share/virtualenvs/awrealty-XqtVTiNc/bin/python",
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": ["--errors-only", "--load-plugins=pylint_django"],
 }
